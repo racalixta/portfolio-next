@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { usePath } from '../hooks/usePath';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Navbar = () => {
   const general = "text-zinc-200 font-medium hover:text-indigo-400";
@@ -25,9 +26,11 @@ export const Navbar = () => {
           {
             menuShow ? (
   
-              <span className="text-white text-3xl">=</span>
-            ) : (
-              <span className='text-white text-3xl'>X</span>
+              // <span className="text-white text-3xl">=</span>
+              <i className="bi bi-list text-zinc-100" id="snow-logo"></i>     
+              ) : (
+              <i className="bi bi-x text-zinc-100" id="snow-logo"></i>     
+              
             )
           }
 

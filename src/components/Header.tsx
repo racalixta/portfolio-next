@@ -3,13 +3,13 @@ import { Navbar } from "./Navbar"
 
 export const Header = () => {
   return (
-    <header className="fixed bg-neutral-900 grid grid-cols-2 px-8 py-4 w-full md:h-16 md:flex md:items-center md:justify-between">
+    <header className="fixed bg-neutral-900 grid grid-cols-2 px-8 py-4 w-full md:h-18 md:flex md:items-center md:justify-between">
 
       <Link 
         href="/" 
-        className="text-4xl font-bold text-orange-500 hover:text-violet-500"
+        className="text-5xl font-bold text-orange-500 hover:text-violet-500"
       >
-        Logo
+        <i className="bi bi-snow2" id="snow-logo"></i>     
       </Link>
 
       <Navbar />

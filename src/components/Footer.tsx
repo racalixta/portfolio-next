@@ -11,9 +11,9 @@ export const Footer = () => {
 
 
         <div className="flex items-center space-x-4">
-          <a className="text-5xl font-bold text-orange-500 hover:text-violet-500" href="/#home"  rel="noreferrer" >
+          {/* <a className="text-5xl font-bold text-orange-500 hover:text-violet-500" href="/#home"  rel="noreferrer" >
             <i className="bi bi-snow2" id="snow-logo"></i>     
-          </a>
+          </a> */}
 
         </div>
 
