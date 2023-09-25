@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const Navbar = () => {
-  const general = "text-zinc-200 font-medium hover:text-indigo-400";
+  const general = "text-zinc-200 font-medium hover:text-violet-500";
   const current = "text-orange-500 font-bold";
   const { isCurrentPage } = usePath();
 

@@ -9,7 +9,7 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button = ({ children, variant, icon, ...props }: Props) => {
   const standard = 'flex justify-center items-center gap-3 font-bold px-4 py-2 rounded-lg text-xl ';
   const primary = 'bg-orange-600 text-white hover:bg-violet-600'
-  const secondary = 'border-2 border-orange-600 text-white hover:bg-indigo-600 hover:border-violet-600'
+  const secondary = 'border-2 border-orange-600 text-white hover:bg-violet-600 hover:border-violet-600'
   const tertiary = 'bg-amber-500 text-white hover:bg-violet-600'
   let value;
 
@@ -27,14 +27,6 @@ export const Button = ({ children, variant, icon, ...props }: Props) => {
       value = standard;
       break;
   }
-
-  // if(variant === "primary") {
-  //   value = primary;
-  // } else if(variant === "secondary") {
-  //   value = secondary;
-  // } else if(variant === "tertiary") {
-  //   value = tertiary;
-  // }
 
   return (
     <button className={standard + value} {...props}>
