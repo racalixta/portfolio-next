@@ -1,6 +1,8 @@
 import { Contact } from "../../components/Contact";
 import { Button } from "../../components/Button";
 import { ParticlesBackground } from "../../components/ParticlesBackground";
+import { About } from "../../components/About";
+import { Skills } from "../../components/Skills";
 
 export const HomePage = () => {
   return (
@@ -42,7 +44,9 @@ export const HomePage = () => {
     </div>
 
 
-   
+    <About />
+
+    <Skills />
 
     <Contact />
 
