@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { mockTechIcons } from '../core/mockTechIcons';
+// import { mockTechIcons } from '../core/mockTechIcons';
 
 export const About = () => {
   return(
