@@ -25,8 +25,7 @@ export const Navbar = () => {
 
           {
             menuShow ? (
-  
-              // <span className="text-white text-3xl">=</span>
+
               <i className="bi bi-list text-zinc-100" id="snow-logo"></i>     
               ) : (
               <i className="bi bi-x text-zinc-100" id="snow-logo"></i>     
@@ -60,6 +59,12 @@ export const Navbar = () => {
 
         <li>
           <button onClick={onToggleMenu}>
+            <a href="/#skills" className={isCurrentPage('/#skills') ? current : general}>Habilidades</a>
+          </button>
+        </li>
+
+        <li>
+          <button onClick={onToggleMenu}>
             <a href="/#contact" className={isCurrentPage('/#contact') ? current : general}>Contato</a>
           </button>
         </li>
@@ -78,6 +83,10 @@ export const Navbar = () => {
 
         <li>
             <a href="/#about" className={isCurrentPage('/#about') ? current : general}>Sobre</a>
+        </li>
+
+        <li>
+            <a href="/#skills" className={isCurrentPage('/#skills') ? current : general}>Habilidades</a>
         </li>
 
         <li>
