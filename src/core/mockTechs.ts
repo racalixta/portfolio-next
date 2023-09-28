@@ -23,7 +23,7 @@ export const Techs: TechTypes = {
   mongoose: ["Mongoose", "Intermediário"],
   express: ["Express", "Intermediário"],
   mysql: ["MySQL", "Básico"],
-  java: ["Java", "Básico"],
+  // java: ["Java", "Básico"],
  },
  others: {
   metodoliaAgil: ["Metodologia Ágil", "Teórico"],
