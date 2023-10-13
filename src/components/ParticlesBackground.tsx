@@ -25,9 +25,9 @@ export const ParticlesBackground = () => {
             options={particlesConfig}
             height="100vh"
             width="90vw"
-        >
+        />
 
-        </Particles>
+        
       </div>
     );
 };

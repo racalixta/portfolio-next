@@ -1,5 +1,5 @@
 
-const particlesConfig = {
+const particlesConfig: any = {
   background: {
       color: {
           value: "#000",
