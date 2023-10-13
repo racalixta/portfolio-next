@@ -7,6 +7,7 @@ interface TechIconsType {
   javascript: string;
   bootstrap: string;
   react: string;
+  nextjs: string;
   node: string;
   mysql: string;
   mongodb: string;
@@ -24,6 +25,7 @@ export const mockTechIcons: TechIconsType = {
   javascript: "https://img.icons8.com/color/480/000000/javascript.png",
   bootstrap: "https://img.icons8.com/color/480/000000/bootstrap.png",
   react: "https://img.icons8.com/color/480/000000/react-native.png",
+  nextjs: "https://img.icons8.com/color/480/000000/nextjs.png",
   node: "https://img.icons8.com/color/480/000000/nodejs.png",
   mysql: "https://img.icons8.com/color/480/000000/mysql.png",
   mongodb: "https://img.icons8.com/color/480/000000/mongodb.png",

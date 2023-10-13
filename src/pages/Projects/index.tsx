@@ -3,7 +3,7 @@ import { mockProjects } from "../../core/mockProjects"
 
 export const ProjectsPage = () => {
   return(
-    <main className="bg-neutral-900 h-auto w-full border-t border-zinc-500">
+    <main className="bg-neutral-800 h-auto w-full pb-16">
 
       <section className="p-8 sm:w-full md:w-10/12 md:mx-auto space-y-6">
 

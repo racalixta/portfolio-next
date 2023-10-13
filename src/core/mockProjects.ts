@@ -1,12 +1,5 @@
 import { mockTechIcons } from "./mockTechIcons";
 
-import mapApp from "/images/projects/map-app.jpg"
-import portfolio23 from "/images/projects/portfolio-23.jpg"
-import portfolio from "/images/projects/portfolio.jpg"
-import flagApp from "/images/projects/flag-app.jpg"
-import sistemaFinanceiro from "/images/projects/sistema-financeiro.jpg"
-
-
 interface MockProjectType {
   mockProjects: MockProjectsTypes
 }
@@ -56,6 +49,16 @@ export const mockProjects = [
   },
   {
     "id": 4,
+    "title": "Meta Diária",
+    "description": "A Codante apresentou um empolgante desafio de projeto: criar um aplicativo focado no controle de hábitos diários, com um design otimizado para dispositivos móveis. Para concretizar esse projeto, foi empregado uma gama de tecnologias de ponta, incluindo Next.js 13, HTML5, CSS3, TailwindCSS, Vercel KV e Figma.",
+    "linkRepository": "https://github.com/racalixta/mp-gerenciador-habitos-next",
+    "linkSite": "https://next-habit-manager-racalixta.vercel.app/",
+    "image": "/images/projects/meta-diaria.jpg",
+    "icons": [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.nextjs}`, `${mockTechIcons.tailwind}`],
+    "techs": ["HTML5", "CSS3", "React", "TailwindCSS" ],
+  },
+  {
+    "id": 5,
     "title": "App de Países",
     "description": "Projeto de aplicativo com o intuito de mostrar informações de diversos países, para tal feito foi utilizado uma API com as informações dos países. As tecnologias utilizadas para o desenvolvimento foi HTML, CSS, React e TailwindCSS.",
     "linkRepository": "https://github.com/racalixta/flag-app",
@@ -65,7 +68,7 @@ export const mockProjects = [
     "techs": ["HTML5", "CSS3", "React", "Tailwind CSS"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfólio 2022",
     description: "A ideia foi criar um portfólio que contém uma descrição básica sobre a minha pessoa e onde eu possa colocar todos os meus projetos desenvolvidos. Para a criação foi utilizado HTML5, CSS3, Angular e Bootstrap.",
     linkRepository: "https://github.com/racalixta/portfolio-project",
