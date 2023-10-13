@@ -25,7 +25,7 @@ const ProjectDetails = () => {
   }
   
   
-  if(value) {
+  if(id) {
     icons = value.icons;
   return (
     <div id="projects" className="bg-neutral-800 w-full min-h-screen pb-16">
@@ -96,7 +96,7 @@ const ProjectDetails = () => {
     return (
       <span></span>
     )
-    
+
   }
 }
 
