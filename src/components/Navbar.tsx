@@ -15,7 +15,7 @@ export const Navbar = () => {
     setMenuShow(!menuShow);
     setMenuHidden(!menuHidden);
   }
-
+ 
   return (
     <nav className="flex flex-col items-end md:flex-row md:items-center">
 

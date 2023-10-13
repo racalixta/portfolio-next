@@ -7,12 +7,13 @@ const ProjectDetails = () => {
   const router = useRouter();
   const { id } = router.query;
   let value;
+  let icons;
 
   mockProjects.map((pj) => {
 
     if(Number(id) === Number(pj.id)) {
-      console.log(randomNumber())
       return value = pj
+
     }
 
   });
@@ -22,9 +23,10 @@ const ProjectDetails = () => {
     return num;
 
   }
-
-  let icons = value.icons;
-
+  
+  
+  if(value) {
+    icons = value.icons;
   return (
     <div id="projects" className="bg-neutral-800 w-full min-h-screen pb-16">
 
@@ -47,10 +49,13 @@ const ProjectDetails = () => {
                 {/* tech icons  */}
                 <div className="flex items-center gap-3 mb-2">
                 
-                  {icons.map((item) => (
+                  
+                {
+                  icons.map((item) => (
                     <img className="h-10 w-10" src={item} alt="" key={`${id} + ${randomNumber()}`} />
-                  ))}
-
+                  ))
+                }
+                    
                 </div>
 
               </div>
@@ -86,6 +91,13 @@ const ProjectDetails = () => {
 
     </div>
   )
+  } else {
+
+    return (
+      <span></span>
+    )
+    
+  }
 }
 
 export default ProjectDetails
