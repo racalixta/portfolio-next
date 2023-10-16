@@ -19,12 +19,9 @@ export const HomePage = () => {
       <ParticlesBackground />
 
       <div id="home" className="p-8 h-screen flex flex-col items-center justify-center space-y-3 relative">
-
-
         
-        <h1 className="text-4xl font-bold text-orange-500">Olá, me chamo Rafael</h1>
+        <h1 className="text-4xl font-bold text-orange-500 text-center">Olá, me chamo Rafael</h1>
 
-        {/* <p className="text-2xl text-zinc-100">Web Developer <span className="text-orange-500">|</span> Freelancer</p> */}
         <p className="text-2xl text-zinc-100">Desenvolvedor Web</p>
 
         <div className="sm:w-8/12 md:w-1/3 grid grid-cols-2 gap-3">
