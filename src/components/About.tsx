@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const About = () => {
   return(
-    <div id="about" className="bg-neutral-900 w-full h-auto px-4 sm:px-8 py-8">
+    <section id="about" className="bg-neutral-900 w-full h-auto px-4 sm:px-8 py-8">
 
       <div className="sm:w-full lg:w-8/12 md:mx-auto">
         <h1 className="text-orange-500 font-bold text-4xl mb-3">Sobre</h1>
@@ -11,19 +11,19 @@ export const About = () => {
 
       <div className="bg-neutral-700 sm:w-full lg:w-8/12 h-full flex flex-col md:flex-row items-start mx-auto rounded-md shadow-md px-4 py-4 md:space-x-4 ">
 
-        <aside className="bg-neutral-800 p-2 rounded-md flex flex-row space-x-4 md:space-x-0 md:space-y-4 md:flex-col justify-around px-4 md:justify-center w-full items-stretch md:w-48 h-auto">
+        <aside className="bg-neutral-800 py-4 px-4 rounded-md flex w-full items-stretch flex-col justify-around space-y-4 md:flex-col md:justify-center md:w-48 h-auto">
 
-          <div className="w-1/2 md:w-full space-y-8 md:space-y-2">
+          <div className="w-full flex justify-center space-x-4 md:space-x-0 md:flex-col md:w-full md:space-y-2 ">
             <Image 
               src="/images/me-img.jpg" 
               width={720} 
               height={720} 
               alt="Rafael Calixta" 
-              className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 mx-auto mb-2'
+              className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 md:mx-auto md:mb-2'
             />
            
 
-            <div className="mx-auto text-zinc-100 text-justify mb-4 space-y-2">
+            <div className="md:mx-auto text-zinc-100 space-y-2 ">
               <p><span className="font-bold">Local:</span> Brasília, Brasil.</p>
 
               
@@ -47,27 +47,7 @@ export const About = () => {
 
           </div>
 
-          {/* <div className='w-1/2 md:w-full'>
-            <h2 className="text-xl font-bold text-orange-500">Skills</h2>
-
-            <div className="grid grid-cols-3 gap-2 sm:gap-4 p-1">
-              <img className="h-10 w-10" src={mockTechIcons.html} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.css} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.javascript} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.react} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.tailwind} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.typescript} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.bootstrap} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-lg px-0.5" src={mockTechIcons.node} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={mockTechIcons.github} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={mockTechIcons.git} alt="" />
-              <img className="h-10 w-10" src={mockTechIcons.angular} alt="" />
-
-            </div>
-
-          </div> */}
-
-          <div className="w-full flex flex-col gap-4">
+          <div className="w-full flex flex-col justify-center space-y-3">
             <h2 className="text-xl font-bold text-orange-500">Formação</h2>
             
           
@@ -103,6 +83,6 @@ export const About = () => {
 
       </div>
 
-    </div>
+    </section>
   )
 }

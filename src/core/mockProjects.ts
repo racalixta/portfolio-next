@@ -20,11 +20,11 @@ export const mockProjects = [
   {
     "id": 1,
     "title": "Portfólio 2023",
-    "description": "Para esse projeto o intuito foi atualizar o portfólio, entretanto como passei a utilizar ReactJS ao invés do Angular tive que criar um novo, o que foi uma ótima oportunidade de perceber a evolução que tive nesse tempo entre a criação do primeiro e do segundo portfólio. Para esse projeto utilizei ReactJS juntamente com TailwindCSS. Em breve será adicionado ao projeto novas funcionalidades.",
+    "description": "Para esse projeto o intuito foi atualizar o portfólio, entretanto como passei a utilizar Next.js 13 ao invés do Angular tive que criar um novo, o que foi uma ótima oportunidade de perceber a evolução que tive nesse tempo entre a criação do primeiro e do segundo portfólio. Para esse projeto utilizei Next.js 13 juntamente com TailwindCSS. Em breve será adicionado ao projeto novas funcionalidades.",
     "linkRepository": "https://github.com/racalixta/portfolio-reactjs",
-    "linkSite": "https://portfolio-reactjs-racalixta.vercel.app/",
+    "linkSite": "https://portfolio-racalixta.vercel.app/",
     "image": "/images/projects/portfolio-23.jpg",
-    "icons": [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.react}`, `${mockTechIcons.tailwind}`],
+    "icons": [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.nextjs}`, `${mockTechIcons.tailwind}`],
     "techs": ["HTML5", "CSS3", "ReactJS", "TailwindCSS" ],
   },
   {

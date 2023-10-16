@@ -22,7 +22,7 @@ export const HomePage = () => {
 
 
         
-        <h1 className="text-4xl font-bold text-orange-500">Olá, sou o Rafael</h1>
+        <h1 className="text-4xl font-bold text-orange-500">Olá, me chamo Rafael</h1>
 
         {/* <p className="text-2xl text-zinc-100">Web Developer <span className="text-orange-500">|</span> Freelancer</p> */}
         <p className="text-2xl text-zinc-100">Desenvolvedor Web</p>
