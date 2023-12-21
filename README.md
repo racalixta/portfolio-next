@@ -1,8 +1,10 @@
 # Portfolio Rafael Calixta
 
-https://portfolio-racalixta.vercel.app/
+
 
 ## Sobre o projeto
+[Abrir o projeto](https://portfolio-racalixta.vercel.app/)
+
 É uma aplicação front-end web utilizando NextJS 13. A ideia foi utilizar os meus conhecimentos em NextJS para criar um portfólio para demonstrar os meus conhecimentos e agregar diversos outros projetos que eu tenha interesse em compartilhar. <br> <br>
 Para a construção da aplicação foi escolhido o NextJS por seu fácil deploy na plataforma Vercel e o uso de TailwindCSS foi para facilitar a construção de interfaces intuitivas e responsivas. 
 
@@ -17,6 +19,7 @@ Para a construção da aplicação foi escolhido o NextJS por seu fácil deploy 
 ## Tecnologias Utilizadas
 - NextJs 13
 - Tailwind CSS
+- JavaScript / Typescript
 - HTML
 - CSS
 
