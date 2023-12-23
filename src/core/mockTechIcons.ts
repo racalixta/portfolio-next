@@ -14,6 +14,8 @@ interface TechIconsType {
   git: string;
   github: string;
   tailwind: string;
+  java: string;
+  spring: string;
 }
 
 export const mockTechIcons: TechIconsType = {
@@ -32,4 +34,6 @@ export const mockTechIcons: TechIconsType = {
   git: "https://img.icons8.com/color/480/000000/git.png",
   github: "https://img.icons8.com/glyph-neue/256/000000/github.png",
   tailwind: "https://img.icons8.com/color/480/000000/tailwindcss.png",
+  java: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg",
+  spring: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-plain.svg",
 }

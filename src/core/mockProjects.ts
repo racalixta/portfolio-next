@@ -77,4 +77,14 @@ export const mockProjects = [
     icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.angular}`,`${mockTechIcons.typescript}`, `${mockTechIcons.bootstrap}`],
     techs: ["HTML5", "CSS3", "Angular", "Typescript", "Bootstrap"],
   },
+  {
+    id: 7,
+    title: "Pic Pay Simplificado",
+    description: "Essa aplicação é baseada no desafio de vaga back-end Picpay Simplificado. O intuito foi de praticar os meus conhecimentos em Java, Spring Boot e JPA/Hibernate de forma voltada à realidade do mercado de trabalho. Obs: eu não estou participando da vaga.",
+    linkRepository: "https://github.com/racalixta/picpay-simplificado",
+    linkSite: "https://github.com/racalixta/picpay-simplificado",
+    image: "/images/projects/picpay-simplificado.jpg",
+    icons: [`${mockTechIcons.java}`, `${mockTechIcons.spring}`],
+    techs: ["Java", "Spring Boot", "JPA", "Hibernate"],
+  },
 ]
